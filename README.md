@@ -1,3 +1,23 @@
+## Commands
+Install all dependencies
+```
+yarn add
+```
+Run Server on Port 5000
+```
+yarn start
+```
+
+## Endpoints
+The only endpoint is `POST /alert` which takes two mandatory parameters
+```json
+{
+    "title": String,
+    "text": String
+}
+```
+
+
 ## editing pug email template
 1. install the pug-cli globally with `npm i -g pug-cli`
 2. install the VSCode Live Server Extension
