@@ -1,7 +1,7 @@
 ## Commands
 Install all dependencies
 ```
-yarn add
+yarn install
 ```
 Run Server on Port 5000
 ```
